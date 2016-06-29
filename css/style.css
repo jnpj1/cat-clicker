@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	color: darkslategray;
+}
+
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.listContainer {
+	width: 30%;
+	float: left;
+}
+
+.catProfile {
+	width: 69.5%;
+	float: right;
+}
+
+li {
+	padding-top: 30px;
+	font-size: 30px;
+}
+
+li:hover {
+	color: teal;
+}
+
+img {
+	display: block;
+	max-height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, p {
+	text-align: center;
+}
+
+.adminSection {
+	clear: left;
+	padding-top: 30px;
+	padding-left: 15px;
+}
+
+#adminButton {
+	visibility: hidden;
+}
+
+.hidden {
+	visibility: hidden;
+}

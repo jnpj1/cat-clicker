@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cat Clicker</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/libs/jquery.min.js"></script>
+	<script src="js/app2.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="listContainer">
+			<ul class="cats">
+			</ul>
+		</div>
+		<div class="catProfile">
+			<p>Choose a cat from the list!</p>
+		</div>
+		<div class="adminSection">
+			<button type="button" id="adminButton">Admin Mode</button>
+			<form id="newInfo" class="hidden">
+				Cat Name: <input id="catName" pattern = ".{0,20}" title="Maximum of 20 characters for cat's name."><br>
+				Cat Image: <input id="catImage" pattern="([1-9]|1[0-5])" title="Enter a number from 1-15."><br>
+				Cat Click Count: <input id="catCount" pattern = "[0-9]{1,3}" title="Enter a number up to 999."><br>
+				<input id="submit" type="submit" value="submit">
+				<input id="cancel" type="reset" value="cancel">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
